@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>bep bep</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- FIN NAV -->
+
+      <!-- header -->
+
+      <section class="d-flex justify-content-center align-items-center" style="width: 100%; height: 100vh;">
+        <!-- <h1 style="font-size: 4rem;">Welcome!</h1> -->
+        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_FPH6Ci.json" background="transparent"  speed="1"  style="width: 100%;" loop autoplay></lottie-player>
+      </section>
+
+      <!-- <div style="width: 40%; margin: 0 auto 20px auto; background-color: black; height: 1px;"></div> -->
+
+      <!-- Tableau de pokémon -->
+      <div class="container poke">
+        <table class="table" style="margin: 100px auto;">
+            <thead>
+              <tr>
+                <th scope="col">Génération</th>
+                <th scope="col">Année</th>
+                <th scope="col">Pokémon</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>1996</td>
+                <td>151</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>1999</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>2002</td>
+                <td>135</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+ 
+
+      <!-- fin tableau -->
+
+
+
+      <div class="container">
+          <div class="row">
+              <div class="col d-flex justify-content-center align-items-start">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://img.huffingtonpost.com/asset/620a0adc2500006e422b1de1.jpeg?cache=WNoBsek6IH&ops=crop_0_8_3813_2231,scalefit_630_noupscale" class="card-img-top" alt="50cent superbowl à l'envers">
+                    <div class="card-body">
+                      <h5 class="card-title">50Cent Superbowl</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="./second.html" class="btn btn-primary">Replay Halftime show</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col d-flex justify-content-center align-items-start">
+                <div class="card" style="width: 18rem;">
+                    <img src="data:image/jpeg;base64,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" alt="50cent superbowl à l'envers">
+                    <div class="card-body">
+                      <h5 class="card-title">Chat gris</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">En savoir plus...</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col d-flex justify-content-center align-items-start">
+                <div class="card" style="width: 18rem; height: auto;">
+                    <img src="data:image/png;base64,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" class="card-img-top" alt="50cent superbowl à l'envers">
+                    <div class="card-body">
+                      <h5 class="card-title">La connection du CESI</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Plus d'infos +</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+ <!-- Fin card -->
+
+</body>
+</html>

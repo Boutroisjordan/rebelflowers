@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');/* Lato */
+
+* {
+    text-decoration: none;
+    outline-style: none;
+    font-family: 'Lato', sans-serif;
+}
+
+
